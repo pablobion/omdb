@@ -70,12 +70,6 @@ function Index(props) {
                                         <h2>Batman</h2>                                  
                              </div>
                          </Link>
-                         <Link style={{color: "transparent"}} to={`/movie/forrest+gump` }>
-                             <div>
-                                  <img src='https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY268_CR1,0,182,268_AL_.jpg'></img>
-                                        <h2>Forrest Gump</h2>                                  
-                             </div>
-                         </Link>
                          <Link style={{color: "transparent"}} to={`/movie/The+Wolf+of+Wall+Street` }>
                              <div>
                                   <img src='https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_UX182_CR0,0,182,268_AL_.jpg'></img>

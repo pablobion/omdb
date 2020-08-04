@@ -62,7 +62,7 @@ function Index(props) {
      const { params } = useRouteMatch()
 
      useEffect( () => {
-          const response = axios.get(`http://www.omdbapi.com/?t=${params.name}&apikey=5ef9972e`)
+          const response = axios.get(`https://www.omdbapi.com/?t=${params.name}&apikey=5ef9972e`)
                .then(response => {
                     if(response.data.Error == "Movie not found!"){
                          alert('Movie not found!')
