@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="src/assets/logo.svg" alt="Logo" height="70">
+  <img src="src/assets/logo.png" alt="Logo" height="70">
 </h1>
 
 <h3 align="center" justify="center">📽&nbsp;&nbsp;&nbsp;Encontre seus melhores e preferidos filmes .</h3>
