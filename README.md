@@ -20,7 +20,7 @@
 </p>
 
 
-<img src="src/assets/logo.png" alt="preview">
+<img src="src/assets/preview.png" alt="preview">
 
 ## 📚 Sobre o projeto
 
