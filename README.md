@@ -1,5 +1,5 @@
-<h1 align="center">º</h1>
-<h2 align="center">mdb</h2>
+<h1 align="center">Omdb</h1>
+
 
 <h3 align="center" justify="center">📽&nbsp;&nbsp;&nbsp;Encontre seus melhores e preferidos filmes .</h3>
 
