@@ -249,7 +249,7 @@ function Index(props) {
                                         <h5>{`${json.Awards}`}</h5>
                                     </>
                                 ) : (
-                                        <Skeleton style={{ width: '40vw' }} duration={2} height={30} />
+                                        <Skeleton style={{ width: '20vw' }} duration={2} height={30} />
                                     )}
                             </div>
                             <div className="scores">
@@ -282,6 +282,7 @@ function Index(props) {
                                             <span>{rimdb}</span>
                                         </>
                                     ) : (
+                                        
                                             <Skeleton style={{ width: '13vh', height: '5vw' }} duration={2} />
                                         )}
                                 </div>

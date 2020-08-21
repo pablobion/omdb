@@ -140,7 +140,7 @@ export const Container = styled.div`
         display: flex;
         max-width: 50%;
         flex-direction: column;
-        font-size: 1vw;
+        font-size: 18px;
         @media (max-width: 800px){
           font-size: 2vw;
         }
@@ -151,7 +151,7 @@ export const Container = styled.div`
       .language {
         display: flex;
         flex-direction: column;
-        font-size: 1vw;
+        font-size: 18px;
         @media (max-width: 800px){
           font-size: 2vw;
         }
@@ -180,7 +180,7 @@ export const Container = styled.div`
       margin-top: 70px;
       display: flex; 
       justify-content: center;
-      font-size: 2vw;
+      font-size: 28px;
       @media (max-width: 800px){
         font-size: 3vw;
       }
@@ -198,9 +198,10 @@ export const Container = styled.div`
         align-items: center;
         img {
           width: 7vw;
+          margin-right: 10px;
         }
         span {
-          margin-left: 5px;
+          margin-left: 10px;
         }
         #imdb{
           width: 5vw;
@@ -266,7 +267,7 @@ export const AboutMovie = styled.div`
       }
 
       small {
-        font-size: 1.3vw;
+        font-size: 28px;
         @media (max-width: 800px){
           font-size: 22px;
           word-wrap: break-word;
