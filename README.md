@@ -72,4 +72,4 @@ $ yarn start
 
 ---
 
-Made with &nbsp; by Pablo Bion 👋 &nbsp;[See my linkedin](www.linkedin.com/in/pablobion)
+Made with &nbsp; by Pablo Bion 👋 &nbsp;[Veja meu linkedin](www.linkedin.com/in/pablobion)
