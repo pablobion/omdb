@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="#-about-the-project">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-getting-started">Como começar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -31,6 +31,8 @@ Projeto WEB de consulta de filmes, através da API pública http://imdbapi.org/
 O projeto conta com informações relevantes sobre o filme pesquisado, desde nome, produtora, sinopse, duração, prêmios e notas dadas para o filme.
 O mesmo conta com responsividade para dispositivos moveis, e conceitos de skeleton loading para diminuir a percepção de carregamento da api.
 
+
+
 ## 🚀 Tecnologias
 
 Tecnologias que usei para desenvolver esse projeto
@@ -42,6 +44,8 @@ Tecnologias que usei para desenvolver esse projeto
 - [Polished](https://github.com/styled-components/polished)
 - [Loading Skeleton](https://www.npmjs.com/package/react-loading-skeleton)
 - [React icons](https://react-icons.github.io/react-icons/)
+
+
 
 ## 💻 Como começar 
 
