@@ -9,8 +9,6 @@
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-Pablo%20Bion-%23FF9000">
   </a>
 
- <img alt="Repository size" src="https://img.shields.io/github/repo-size/pablobion/omdb?color=%23FF9000">
-
   <a href="https://github.com/pablobion/omdb/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/pablobion/omdb?color=%23FF9000">
   </a>
