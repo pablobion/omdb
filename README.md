@@ -22,7 +22,7 @@
 
 <img src="src/assets/preview.png" alt="preview">
 
-## 📚 Sobre o projeto
+## 📽 Sobre o projeto
 
 Projeto WEB de consulta de filmes, através da API pública http://imdbapi.org/
 
