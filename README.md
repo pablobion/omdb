@@ -1,68 +1,162 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img src=".github/logo.svg" alt="Logo" height="70">
+</h1>
 
-## Available Scripts
+<h3 align="center">
+  Omdb - Search the best movies
+</h3>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="https://www.linkedin.com/in/eliasgcf/">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-Pablo%20Bion-%239871F5"></a>
 
-### `yarn start`
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/EliasGcf/proffy?color=%239871F5">
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <a href="https://github.com/EliasGcf/proffy/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasGcf/proffy?color=%239871F5"></a>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/proffy?color=%239871F5">
+</p>
 
-### `yarn test`
+<p align="center">
+  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+<img alt="Layout" src="https://res.cloudinary.com/eliasgcf/image/upload/v1596552194/proffy/proffy-mockup_a2owui.png">
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📚 About the project
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+This project was developed on the Next Level Week #02 event by [Rocketseat](https://rocketseat.com.br/) 🚀&nbsp;💜
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This application is designed to connect teachers and students. For teachers, it is possible to define the start and end time of classes, the hourly price and describe themselves. Studens can get in touch and choose favorites teachers.
 
-### `yarn eject`
+## 🚀 Technologies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Technologies that I used to develop this application
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Node.js](https://nodejs.org/en/)
+- [ReactJS](https://reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Expo](https://expo.io/)
+- [Express](https://expressjs.com/pt-br/)
+- [TypeORM](https://typeorm.io/#/)
+- [JWT-token](https://jwt.io/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [React Router DOM](https://reacttraining.com/react-router/)
+- [React Navigation](https://reactnavigation.org/)
+- [Husky](https://github.com/typicode/husky)
+- [Commitlint](https://github.com/conventional-changelog/commitlint)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [EditorConfig](https://editorconfig.org/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 💻 Getting started
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomniaButton) button
 
-## Learn More
+### Requirements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://classic.yarnpkg.com/)
+- [Expo](https://expo.io/)
+- One instance of [PostgreSQL](https://www.postgresql.org/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> Obs.: I recommend use docker
 
-### Code Splitting
+**Clone the project and access the folder**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```bash
+$ git clone https://github.com/EliasGcf/proffy.git && cd proffy
+```
 
-### Analyzing the Bundle Size
+**Install dependencies**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```bash
+$ yarn
+```
 
-### Making a Progressive Web App
+**Follow the steps below**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### Backend
 
-### Advanced Configuration
+```bash
+# Create the instance of postgreSQL using docker
+docker run --name proffy-postgres -e POSTGRES_USER=docker \
+              -e POSTGRES_DB=proffy -e POSTGRES_PASSWORD=docker \
+              -p 5432:5432 -d postgres
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+# Use the script to run the migrations
+$ yarn server typeorm:migration:run
 
-### Deployment
+# To finish, run the api service
+$ yarn server dev:server
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+# Well done, project is started!
+```
 
-### `yarn build` fails to minify
+### Web
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+_Obs.: Before to continue, be sure to have the API running_
+
+```bash
+# Be sure the file 'packages/web/src/services/api.ts'
+# have the IP to your API
+
+# Start the client
+$ yarn web start
+```
+
+### Mobile
+
+_Obs.: Before to continue, be sure to have the API running_
+
+```bash
+# Be sure the file 'packages/mobile/src/services/api.ts'
+# have the IP to your API
+
+# Start the expo service and scan the QR code with Expo Client
+$ yarn mobile start
+```
+
+## 🤔 How to contribute
+
+**Make a fork of this repository**
+
+```bash
+# Fork using GitHub official command line
+# If you don't have the GitHub CLI, use the web site to do that.
+
+$ gh repo fork EliasGcf/proffy
+```
+
+**Follow the steps below**
+
+```bash
+# Clone your fork
+$ git clone your-fork-url && cd proffy
+
+# Create a branch with your feature
+$ git checkout -b my-feature
+
+# Make the commit with your changes
+$ git commit -m 'feat: My new feature'
+
+# Send the code to your remote branch
+$ git push origin my-feature
+```
+
+After your pull request is merged, you can delete your branch
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with 💜&nbsp; by Elias Gabriel 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/eliasgcf/)
