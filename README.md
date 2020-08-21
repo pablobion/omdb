@@ -21,21 +21,21 @@
   <a href="#-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-getting-started">Como começar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>
 </p>
 
 
 <img alt="Layout" src="https://res.cloudinary.com/eliasgcf/image/upload/v1596552194/proffy/proffy-mockup_a2owui.png">
 
-## 📚 About the project
+## 📚 Sobre o projeto
 
-This project was developed on the Next Level Week #02 event by [Rocketseat](https://rocketseat.com.br/) 🚀&nbsp;💜
+Projeto WEB de consulta de filmes, através da API pública http://imdbapi.org/
 
-This application is designed to connect teachers and students. For teachers, it is possible to define the start and end time of classes, the hourly price and describe themselves. Studens can get in touch and choose favorites teachers.
+O projeto conta com informações relevantes sobre o filme pesquisado, desde nome, produtora, sinopse, duração, prêmios e notas dadas para o filme.
+O mesmo conta com responsividade para dispositivos moveis, e conceitos de skeleton loading para diminuir a percepção de carregamento da api.
 
-## 🚀 Technologies
+## 🚀 Tecnologias
 
-Technologies that I used to develop this application
+Tecnologias que usei para desenvolver esse projeto
 
 - [ReactJS](https://reactjs.org/)
 - [React Router DOM](https://reacttraining.com/react-router/)
@@ -45,107 +45,30 @@ Technologies that I used to develop this application
 - [Loading Skeleton](https://www.npmjs.com/package/react-loading-skeleton)
 - [React icons](https://react-icons.github.io/react-icons/)
 
-## 💻 Getting started
+## 💻 Como começar 
 
-Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomniaButton) button
 
-### Requirements
-
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://classic.yarnpkg.com/)
-- [Expo](https://expo.io/)
-- One instance of [PostgreSQL](https://www.postgresql.org/)
-
-> Obs.: I recommend use docker
-
-**Clone the project and access the folder**
+**Clonando repositório e executando**
 
 ```bash
-$ git clone https://github.com/EliasGcf/proffy.git && cd proffy
+$ git clone https://github.com/pablobion/omdb && cd omdb
 ```
 
-**Install dependencies**
+**Instalando as dependências**
 
 ```bash
 $ yarn
 ```
 
-**Follow the steps below**
-
-### Backend
+**Iniciando**
 
 ```bash
-# Create the instance of postgreSQL using docker
-docker run --name proffy-postgres -e POSTGRES_USER=docker \
-              -e POSTGRES_DB=proffy -e POSTGRES_PASSWORD=docker \
-              -p 5432:5432 -d postgres
-
-# Use the script to run the migrations
-$ yarn server typeorm:migration:run
-
-# To finish, run the api service
-$ yarn server dev:server
-
-# Well done, project is started!
+$ yarn start
 ```
 
-### Web
 
-_Obs.: Before to continue, be sure to have the API running_
 
-```bash
-# Be sure the file 'packages/web/src/services/api.ts'
-# have the IP to your API
-
-# Start the client
-$ yarn web start
-```
-
-### Mobile
-
-_Obs.: Before to continue, be sure to have the API running_
-
-```bash
-# Be sure the file 'packages/mobile/src/services/api.ts'
-# have the IP to your API
-
-# Start the expo service and scan the QR code with Expo Client
-$ yarn mobile start
-```
-
-## 🤔 How to contribute
-
-**Make a fork of this repository**
-
-```bash
-# Fork using GitHub official command line
-# If you don't have the GitHub CLI, use the web site to do that.
-
-$ gh repo fork EliasGcf/proffy
-```
-
-**Follow the steps below**
-
-```bash
-# Clone your fork
-$ git clone your-fork-url && cd proffy
-
-# Create a branch with your feature
-$ git checkout -b my-feature
-
-# Make the commit with your changes
-$ git commit -m 'feat: My new feature'
-
-# Send the code to your remote branch
-$ git push origin my-feature
-```
-
-After your pull request is merged, you can delete your branch
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-Made with 💜&nbsp; by Elias Gabriel 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/eliasgcf/)
+Made with &nbsp; by Pablo Bion 👋 &nbsp;[See my linkedin](www.linkedin.com/in/pablobion)
