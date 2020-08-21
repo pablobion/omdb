@@ -20,7 +20,7 @@
 </p>
 
 
-<img alt="Layout" src="https://res.cloudinary.com/eliasgcf/image/upload/v1596552194/proffy/proffy-mockup_a2owui.png">
+<img src=".src/assets/preview.png" alt="preview" height="70">
 
 ## 📚 Sobre o projeto
 
@@ -71,4 +71,4 @@ $ yarn start
 
 ---
 
-Made with &nbsp; by Pablo Bion 👋 &nbsp;[Veja meu linkedin](www.linkedin.com/in/pablobion)
+Feito por &nbsp; by Pablo Bion 👋 &nbsp;[Veja meu linkedin](www.linkedin.com/in/pablobion)
