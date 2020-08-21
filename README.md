@@ -7,15 +7,13 @@
 </h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/eliasgcf/">
+  <a href="https://www.linkedin.com/in/pablobion/">
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-Pablo%20Bion-%239871F5"></a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/EliasGcf/proffy?color=%239871F5">
+  <img alt="Repository size" src="https://github.com/pablobion/omdb?color=%239871F5">
 
-  <a href="https://github.com/EliasGcf/proffy/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasGcf/proffy?color=%239871F5"></a>
-
-  <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/proffy?color=%239871F5">
+  <a href="https://github.com/pablobion/omdb/commits/master">
+    <img alt="GitHub last commit" src="https://github.com/pablobion/omdb?color=%239871F5"></a>
 </p>
 
 <p align="center">
