@@ -227,6 +227,7 @@ export const Poster = styled.div`
     }
     @media(min-width: 1700px){
       height: 400px;
+      
     }
   }
 `
@@ -307,7 +308,7 @@ export const AboutMovie = styled.div`
           min-width: 100px;
         }
         @media(min-width: 1000px){
-          width: 25vw;
+          width: 300px;
         }
 
       }

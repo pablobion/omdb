@@ -28,11 +28,14 @@ function Index(props) {
                    </header>
                    <body>
                          <div className='search'>
+                              <form>
                               <input value={movie} onChange={(e) => setMovie(e.target.value)} placeholder='Search OMDb'></input>
                              <Link to={`/movie/${movie}`}>
                               <button type="submit"><FaSearch style={{marginRight: 20}}/>Search</button>
                               </Link>
+                              </form>
                          </div>
+                         
                    </body>
                    
                    <div className="headerdiscove">
@@ -46,16 +49,10 @@ function Index(props) {
                                    <h2>The Avengers</h2>                                  
                              </div>
                          </Link>
-                         <Link style={{color: "transparent"}} to={`/movie/Breaking+Bad` }>
+                         <Link style={{color: "transparent"}} to={`/movie/joker` }>
                              <div>
-                                  <img src='https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR5,0,182,268_AL_.jpg'></img>
-                                        <h2>Breaking Bad</h2>                                  
-                             </div>
-                         </Link>
-                         <Link style={{color: "transparent"}} to={`/movie/Game+of+Thrones` }>
-                             <div>
-                                  <img src='https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_UY268_CR7,0,182,268_AL_.jpg'></img>
-                                        <h2>Game of Thrones</h2>                                  
+                                  <img src='https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg'></img>
+                                        <h2>Joker</h2>                                  
                              </div>
                          </Link>
                          <Link style={{color: "transparent"}} to={`/movie/Interstellar` }>
@@ -80,6 +77,12 @@ function Index(props) {
                              <div>
                                   <img src='https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_UX182_CR0,0,182,268_AL_.jpg'></img>
                                         <h2>Hunger Games</h2>                                  
+                             </div>
+                         </Link>
+                         <Link style={{color: "transparent"}} to={`/movie/jurassic+park` }>
+                             <div>
+                                  <img src='https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg'></img>
+                                        <h2>Jurassic Park</h2>                                  
                              </div>
                          </Link>
                          <Link style={{color: "transparent"}} to={`/movie/Captain+Marvel` }>

@@ -16,7 +16,7 @@ export const App = styled.div`
     filter: blur(8px);
     -webkit-filter: blur(20px);
     /* https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg */
-    background-image: url('https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg');
+    background-image: url('https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_SX300.jpg');
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,6 +27,7 @@ export const App = styled.div`
 export const HomeDiv = styled.div`
     position: absolute;
     margin: 30px 0px 30px 0px;
+    padding: 0px 30px 0px 30px;
     background: rgba(0, 0, 0, 0.70);
     border-radius: 3vw;
     width: ${px2vw(930)};
