@@ -2,25 +2,25 @@
   <img src=".github/logo.svg" alt="Logo" height="70">
 </h1>
 
-<h3 align="center">
-  Omdb - Search the best movies
-</h3>
+<h3 align="center">📽 Encontre seus melhores e preferidos filmes .</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/pablobion/">
-    <img alt="Made by" src="https://img.shields.io/badge/made%20by-Pablo%20Bion-%239871F5"></a>
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-Pablo%20Bion-%23FF9000">
+  </a>
 
-  <img alt="Repository size" src="https://github.com/pablobion/omdb?color=%239871F5">
+ <img alt="Repository size" src="https://img.shields.io/github/repo-size/pablobion/omdb?color=%23FF9000">
 
   <a href="https://github.com/pablobion/omdb/commits/master">
-    <img alt="GitHub last commit" src="https://github.com/pablobion/omdb?color=%239871F5"></a>
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/pablobion/omdb?color=%23FF9000">
+  </a>
 </p>
 
 <p align="center">
-  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-about-the-project">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Como começar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
 
@@ -37,22 +37,13 @@ This application is designed to connect teachers and students. For teachers, it 
 
 Technologies that I used to develop this application
 
-- [Node.js](https://nodejs.org/en/)
 - [ReactJS](https://reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Expo](https://expo.io/)
-- [Express](https://expressjs.com/pt-br/)
-- [TypeORM](https://typeorm.io/#/)
-- [JWT-token](https://jwt.io/)
-- [PostgreSQL](https://www.postgresql.org/)
 - [React Router DOM](https://reacttraining.com/react-router/)
-- [React Navigation](https://reactnavigation.org/)
-- [Husky](https://github.com/typicode/husky)
-- [Commitlint](https://github.com/conventional-changelog/commitlint)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [EditorConfig](https://editorconfig.org/)
+- [Styled Components](https://styled-components.com/)
+- [Axios](https://github.com/axios/axios)
+- [Polished](https://github.com/styled-components/polished)
+- [Loading Skeleton](https://www.npmjs.com/package/react-loading-skeleton)
+- [React icons](https://react-icons.github.io/react-icons/)
 
 ## 💻 Getting started
 
